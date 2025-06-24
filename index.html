@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Landing page de produtos de tecnologia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="w-[95%] container mx-auto pr-4 pl-4">
+      <!-- Mobile -->
+      <header class="flex justify-between py-8 md:hidden">
+          <img src="./assets/icons/menu.png" alt="Menu" />
+          <img src="./assets/logo.svg" alt="logo" />
+      </header>
+      <!-- Desktop -->
+      <header class="hidden justify-between py-8 md:flex">
+        <div class="flex items-center gap-10">
+          <img src="./assets/icons/menu.png" alt="Menu" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <nav class="">
+            <ul class="flex items-center gap-8">
+              <li class="flex items-center gap-1 cursor-pointer">
+                <a href="#">Produtos</a>
+                <img src="./assets/icons/ExpandArrow.png" alt="">
+              </li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+         <div>
+          <nav>
+            <ul class="flex items-center gap-4">
+              <li>
+                <img src="./assets/icons/ShoppingCart.png" alt="ShoppingCart" />
+              </li>
+              <li>
+                <img src="./assets/icons/Search.png" alt="Busca" />
+              </li>
+              <li>
+                <a href="#" class="block rounded-sm bg-white text-black py-2 px-4 text-base">Comprar</a>
+              </li>
+            </ul>
+          </nav>
+         </div> 
+      </header>
+    </div>
+    <!-- Hero -->
+    <main class="container mx-auto pr-4 pl-4">
+      <div class="grid grid-cols-2 justify-between gap-8 items-center pt-8 pb-8 bg">
+        <div class="flex flex-col gap-2 items-start self-start">
+          <span class="text-[#9CA3AF] text-2xl font-light">Smartphone Series</span>
+          <h1 class="text-2xl md:text-6xl font-light mb-14">
+            Design com Beleza e Funcionalidade
+          </h1>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+        <div class="max-md:hidden w-[400px]">
+          <img src="./assets/phone-desktop.png" alt="Phone Desktop" />
+        </div>
+        <div class="md:hidden">
+          <img src="./assets/phone.png" alt="Phone" />
+        </div>
+      </div>
+    </main>
+    <!-- Produtos -->
+    <section class="container mx-auto pr-4 pl-4">
+      <div class="flex justify-between items-center mt-20 pb-10 border-b border-[#777777]">
+        <div class="flex items-center gap-2">
+          <h3>Filtros</h3>
+          <img src="./assets/icons/ExpandArrow.png" alt="">  
+        </div>
+      <div class="flex items-center gap-9">
+        <img src="./assets/icons/Search.png" alt="">
+        <button class="bg-white text-black text-base font-normal py-2 px-7 rounded-[8px]">Procurar</button>
+      </div> 
+      </div>
+      <!-- Lista de Produtos -->
+      <div class="grid grid-cols-4 justify-items-center max-md:grid-cols-1 mt-20">
+        <div class="grid gap-2 w-60 text-center">
+          <h3>Iphone 16</h3>
+          <img class="m-auto" src="./assets/Iphone_16.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+        <div class="grid gap-2 text-center w-60">
+          <h3>Iphone 16</h3>
+          <img class="m-auto" src="./assets/Iphone_16.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+          <div class="grid gap-2 text-center w-60">
+          <h3>Iphone 16</h3>
+          <img class="m-auto" src="./assets/Iphone_16.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+          <div class="grid gap-2 w-60 text-center">
+          <h3>Iphone 16</h3>
+          <img class="m-auto" src="./assets/Iphone_16.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+      </div>
+      <!-- itens 2 -->
+      <div class="grid grid-cols-4 justify-items-center max-md:grid-cols-1 mt-20 mb-10">
+        <div class="grid gap-2 w-60 text-center">
+          <h3>SerieA 3x</h3>
+          <img class="m-auto" src="./assets/SerieA_3x.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+        <div class="grid gap-2 text-center w-60">
+          <h3>SerieB 2w</h3>
+          <img class="m-auto" src="./assets/SerieB_2w.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+          <div class="grid gap-2 text-center w-60">
+          <h3>Oficial 3xd</h3>
+          <img class="m-auto" src="./assets/Oficial_3xd.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+          <div class="grid gap-2 w-60 text-center">
+          <h3>Apple Watch</h3>
+          <img class="m-auto" src="./assets/Apple_Watch.png" alt="">
+          <ul class="flex justify-center gap-1">
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+              <li><img src="./assets/icons/Star.svg" alt=""></li>
+          </ul>
+          <p class="price text-[#22C55E]">R$ 1899,90 no PIX </p>
+          <p class="text-[#9CA3AF]">O novíssimo sistema de câmera  é muito versátil de perto ou de longe. Câmera  de 48 MP</p>
+          <a href="" class="button_primary">Compre agora</a>
+        </div>
+      </div>
+    </section>
+		<!-- Suporte -->
+	<section class="container mx-auto pr-4 pl-4 mt-20">
+    <div class="flex max-md:flex-col gap-3.5 justify-between items-center">
+      <div class="grid gap-11 justify-start text-left mt-7 border p-4 border-[#fff] rounded-2xl md:w-[450px]">
+			  <h3 class="text-xl py-5 font-bold">24/7 no suporte ao cliente</h3>
+			  <p class="text-xl font-normal">Nosso suporte está 7/7 24horas por dia para te ajudar com qualquer problema em nossos aparelhos </p>
+        <a href="/" class="product_button">Compre agora</a>
+		</div>
+    <div class="max-md:hidden">
+			<img src="./assets/suporte-desktop.png" alt="suporte"> 
+		</div>
+    <div class="md:hidden">
+      <img src="./assets/suporte_2.png" alt="suporte"> 
+    </div>
+    </div>
+	<section>
+
+    <!-- Formulário -->
+    <section class="py-20">
+      <div class="container mx-auto pr-4 pl-4 mt-20 text-center">
+        <h3 class="font-bold text-4xl text-[#D1D5DB]">Faça sua encomenda</h3>
+        <p class="text-base w-80 m-auto mt-2 text-[#D1D5DB]">Se não encontrar o que deseja, encomende conosco e garanta um super desconto!</p>
+      </div>
+      <form class="container mx-auto pr-4 pl-4 mt-10 form w-[400px] rounded-2xl p-6">
+        <div class="grid gap-4"> 
+          <div class="grid grid-cols-1 gap-1 w-full">
+            <label for="">Nome</label>
+            <input type="text" placeholder="Nome" class="border border-[#9CA3AF] p-3 rounded-[8px]" />
+          </div>
+          <div class="grid grid-cols-1 gap-1">
+            <label for="">E-mail</label>
+            <input type="email" placeholder="Email" class="border border-[#9CA3AF] p-3 rounded-[8px]" />
+          </div>
+          <div class="grid grid-cols-1 gap-1">
+            <label for="">E-mail</label>
+            <input type="text" placeholder="Celular" class="border border-[#9CA3AF] p-3 rounded-[8px]" />
+          </div>
+          <div class="grid grid-cols-1 gap-1">
+            <label for="">O que você quer encomendar ?</label>
+            <textarea name="" rows="4" placeholder="Sua mensagem" id="" class="border border-[#9CA3AF] p-3 rounded-[8px]"></textarea>
+          </div>
+          <a href="#" class="bg-white inline-block text-black py-3 text-center rounded-[8px]">Enviar mensagem</a>
+        </div>
+      </form>
+    </section>
+
+    <footer class="container mx-auto py-5">
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-6 items-center">
+        <div>
+          <img src="./assets/logo.svg" alt="Logo">
+        </div>
+        <div>
+          <ul>
+            <li>Rua brás da silva, 281.</li>
+            <li>Cidade React</li>
+            <li>São paulo, Brasil.</li>
+          </ul>
+        </div>
+          <div>
+            <ul>
+              <li>11 4002 - 8922</li>
+              <li>contato@wecht.com</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>Home</li>
+              <li>Smartwatchs</li>
+              <li>Suporte</li>
+              <li>Encomende</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="flex gap-4">
+              <li>
+                <img src="./assets/icons/Instagram.svg" alt="Instagram">
+              </li>
+              <li>
+                <img src="./assets/icons/Facebook.svg" alt="Facebook">
+              </li>
+              <li>
+                <img src="./assets/icons/LinkedIn.svg" alt="Twitter">
+              </li>
+            </ul>
+          </div>
+          <div class="flex items-center justify-end md:justify-center">
+            <div class="flex flex-col items-center justify-center bg-amber-700 h-16 w-16 rounded-full cursor-pointer">
+              <img src="./assets/icons/Arrow_up.svg" alt="">
+            </div>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>

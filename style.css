@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --price: #22C55E;
+    --text: #9CA3AF;
+    --headings: #000;
+    --linear-gradient: linear-gradient(90deg,rgba(19, 113, 239, 1) 0%, rgba(229, 57, 162, 1) 100%);
+    --font-family: 'Nunito', sans-serif;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+body {
+    background: var(--headings);
+    color: #fff;    
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.button_primary {
+    margin-top: 14px;
+    display: inline-block;
+    padding: 6px 16px;
+    background: var(--linear-gradient);
+    border-radius: 17px;
+}
+
+.product_button {
+    display: grid;
+    width: 300px;
+    padding: 6px 16px;
+    background: var(--linear-gradient);
+    border-radius: 17px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.form {
+    background: var(--linear-gradient);
+}
